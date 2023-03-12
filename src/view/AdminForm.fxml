@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="adminFormContext" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminFormController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../assets/erererwerwerwerwerwe.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="433.0" layoutY="329.0" mnemonicParsing="false" onAction="#LoginOnAction" prefHeight="31.0" prefWidth="82.0" style="-fx-background-color: #1B9CFC;" text="Login" textFill="WHITE">
+         <effect>
+            <InnerShadow height="14.78" radius="3.195" width="0.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label layoutX="93.0" layoutY="281.0" text="Forgot Password?">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label layoutX="417.0" layoutY="281.0" text="Remember me" underline="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Label>
+      <Label layoutX="90.0" layoutY="200.0" prefHeight="21.0" prefWidth="105.0" text="   Password">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Label>
+      <TextField fx:id="usernameTXT" layoutX="86.0" layoutY="119.0" prefHeight="31.0" prefWidth="429.0" promptText="User Name :" />
+      <Label layoutX="86.0" layoutY="90.0" prefHeight="21.0" prefWidth="105.0" text="   User Name">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Label>
+      <Button layoutX="24.0" layoutY="32.0" mnemonicParsing="false" onAction="#BackHomeOnAction" opacity="0.84" style="-fx-background-color: #f8a5c2;" text="&lt;Back">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fitHeight="97.0" fitWidth="118.0" layoutX="476.0" layoutY="4.0">
+         <image>
+            <Image url="@../assets/Orange_Grey__Paradise_Surf_Logo__2_-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="passwordTXT" layoutX="86.0" layoutY="230.0" prefHeight="31.0" prefWidth="429.0" promptText="Password:" />
+   </children>
+</AnchorPane>

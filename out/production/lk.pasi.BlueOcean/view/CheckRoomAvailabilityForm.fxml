@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="RoomsTypeContext" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CheckRoomAVWController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../assets/AdobeStock_339871569.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="111.0" layoutY="113.0" mnemonicParsing="false" onAction="#SingleRoomOnAction" prefHeight="42.0" prefWidth="385.0" style="-fx-background-color: #E078F1;" text="Single Room" />
+      <Button layoutX="111.0" layoutY="177.0" mnemonicParsing="false" onAction="#DoubleRoomOnAction" prefHeight="42.0" prefWidth="385.0" style="-fx-background-color: #74F481;" text="Double Room" />
+      <Button layoutX="111.0" layoutY="241.0" mnemonicParsing="false" onAction="#TripleRoomOnAction" prefHeight="42.0" prefWidth="385.0" style="-fx-background-color: #F9F12E;" text="Triple Rooms" />
+      <Button layoutX="111.0" layoutY="314.0" mnemonicParsing="false" onAction="#QuadRoomOnAction" prefHeight="42.0" prefWidth="385.0" style="-fx-background-color: #9362E3;" text="Quad Room" />
+      <Button layoutX="506.0" layoutY="362.0" mnemonicParsing="false" onAction="#BackOnAction" style="-fx-background-color: blue;" text="Back" textFill="#e1e1e1" />
+      <Label layoutX="48.0" layoutY="48.0" prefHeight="21.0" prefWidth="129.0" style="-fx-background-color: pink;" text="    ROOMS TYPES" />
+      <ImageView fitHeight="136.0" fitWidth="102.0" layoutX="496.0" layoutY="1.0">
+         <image>
+            <Image url="@../assets/Orange_Grey__Paradise_Surf_Logo__2_-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

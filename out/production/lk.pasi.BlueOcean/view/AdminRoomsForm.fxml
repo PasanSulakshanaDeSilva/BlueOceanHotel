@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="roomcontext" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminRoomsController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../assets/erererwerwerwerwerwe.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="127.0" fitWidth="98.0">
+         <image>
+            <Image url="@../assets/Orange_Grey__Paradise_Surf_Logo__2_-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="25.0" layoutY="152.0" mnemonicParsing="false" onAction="#SingleRoomONAction" prefHeight="107.0" prefWidth="115.0" text=" " />
+      <Button layoutX="168.0" layoutY="152.0" mnemonicParsing="false" onAction="#DoubleRoomOnAction" prefHeight="107.0" prefWidth="115.0" text=" " />
+      <Button layoutX="308.0" layoutY="152.0" mnemonicParsing="false" onAction="#TripleRoomOnAction" prefHeight="107.0" prefWidth="115.0" text=" " />
+      <Button layoutX="450.0" layoutY="152.0" mnemonicParsing="false" onAction="#QuadRoomOnAction" prefHeight="107.0" prefWidth="115.0" text=" " />
+      <Button layoutX="489.0" layoutY="333.0" mnemonicParsing="false" onAction="#backOnAction" style="-fx-background-color: blue;" text="Back" textFill="WHITE" />
+      <ImageView fitHeight="98.0" fitWidth="90.0" layoutX="181.0" layoutY="157.0">
+         <image>
+            <Image url="@../assets/bnbn.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="98.0" layoutX="34.0" layoutY="162.0">
+         <image>
+            <Image url="@../assets/vvvvcccv.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="98.0" layoutX="317.0" layoutY="164.0">
+         <image>
+            <Image url="@../assets/ghhghhg.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="98.0" layoutX="459.0" layoutY="164.0">
+         <image>
+            <Image url="@../assets/qqwwddd.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

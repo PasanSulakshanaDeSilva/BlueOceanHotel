@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="SingleRoomContext" prefHeight="410.0" prefWidth="625.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.REserverSingleRoomController">
+   <children>
+      <ImageView fitHeight="410.0" fitWidth="625.0" layoutX="-7.0">
+         <image>
+            <Image url="@../assets/AdobeStock_339871569.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="39.0" layoutY="68.0" prefHeight="21.0" prefWidth="189.0" style="-fx-background-color: pink;" text="  Single Room Availabillity" />
+      <TextArea layoutX="46.0" layoutY="117.0" prefHeight="215.0" prefWidth="216.0" style="-fx-background-color: pink;" text="Max Occuupancy      1person&#10;Size Measurement   10meters&#10;Room Quantity        5&#10;" />
+      <TextArea layoutX="262.0" layoutY="117.0" prefHeight="215.0" prefWidth="179.0" text="Amenties&#10;&#10;Air Condition&#10;Alarm Clock&#10;Barbeque Grills&#10;Bath tub with spray jets&#10;MiniBar&#10;Computer&#10;" />
+      <TextArea layoutX="441.0" layoutY="117.0" prefHeight="215.0" prefWidth="155.0" />
+      <Button layoutX="525.0" layoutY="198.0" mnemonicParsing="false" onAction="#AdOnAction" style="-fx-background-color: blue;" text="ADD" textFill="#f8f8f8">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="445.0" layoutY="125.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="40.0" style="-fx-background-color: red;" text="0001" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font></Button>
+      <Button layoutX="445.0" layoutY="162.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="40.0" style="-fx-background-color: red;" text="0002" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font></Button>
+      <Button layoutX="445.0" layoutY="201.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="40.0" style="-fx-background-color: red;" text="0003" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="445.0" layoutY="243.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="40.0" style="-fx-background-color: red;" text="0004" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="445.0" layoutY="287.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="40.0" style="-fx-background-color: red;" text="0005" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="8.0" layoutY="14.0" mnemonicParsing="false" onAction="#backOnAction" prefHeight="31.0" prefWidth="75.0" style="-fx-background-color: pink;" text="&lt;Back">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fitHeight="117.0" fitWidth="103.0" layoutX="507.0">
+         <image>
+            <Image url="@../assets/Orange_Grey__Paradise_Surf_Logo__2_-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <RadioButton layoutX="491.0" layoutY="127.0" mnemonicParsing="false" onAction="#room1OnAction" text=" " />
+      <RadioButton layoutX="491.0" layoutY="164.0" mnemonicParsing="false" text=" " />
+      <RadioButton layoutX="491.0" layoutY="203.0" mnemonicParsing="false" text=" " />
+      <RadioButton layoutX="491.0" layoutY="245.0" mnemonicParsing="false" text=" " />
+      <RadioButton layoutX="491.0" layoutY="289.0" mnemonicParsing="false" text=" " />
+      <RadioButton layoutX="573.0" layoutY="127.0" mnemonicParsing="false" text=" " />
+      <Button layoutX="523.0" layoutY="126.0" mnemonicParsing="false" style="-fx-background-color: red;" text="0006" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
